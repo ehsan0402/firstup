@@ -6,7 +6,8 @@ export function NotFound(){
     
     return(
         <StyleW>
-        <Link to="/" >404</Link>
+        <Link to="/" >404 
+        click to redirect to home</Link>
         </StyleW>
     )
 }
