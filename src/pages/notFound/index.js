@@ -1,13 +1,12 @@
 import { Button } from "antd";
+import { Link } from "react-router-dom";
 import StyleW from "../../components/layouts/defaultLayout/wrapper/style";
 
 export function NotFound(){
-    function Home (){
-        <Redirect to="/" />
-    }
+    
     return(
         <StyleW>
-        <p onClick={Home}>404</p>
+        <Link to="/" >404</Link>
         
         </StyleW>
     )
