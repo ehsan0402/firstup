@@ -3,7 +3,7 @@ import Style from "./style";
 export function Logo(){
     return(
         <Style>
-            <img src="../../images/logo.svg" />
+            <img src= "images/logo.svg" />
         </Style>
     )
 }
