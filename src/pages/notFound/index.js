@@ -7,8 +7,8 @@ export function NotFound(){
     }
     return(
         <StyleW>
-        <p>404</p>
-        <p onClick={Home}>Home</p>
+        <p onClick={Home}>404</p>
+        
         </StyleW>
     )
 }
