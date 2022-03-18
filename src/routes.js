@@ -7,7 +7,7 @@ export function MyRoutes(){
     return(
         <BrowserRouter>
             <Routes>
-                <Route path="//firstup/" element={<Home/>}/>
+                <Route path="/firstup" element={<Home/>}/>
                 <Route path="/crypto/:id" element={<SinglePage/>}/>
                 <Route path="*" element={<NotFound/>}/>
             </Routes>
